@@ -1,4 +1,4 @@
-const list1 = [
+/* const list1 = [
   'me', 'orange', 'and', 'green', 'in', 'his', 'have', 'that'
 ]
 
@@ -26,4 +26,69 @@ const list7 = [
   'or', 'was', 'purple', 'nine', 'my', 'jump', 'went', 'three', 'they', 'but'
 ]
 
-export default { list1 } { list2 }
+export default { list1 } { list2 } */
+
+const words = [
+  'me',
+  'orange',
+  'and',
+  'green',
+  'in',
+  'his',
+  'have',
+  'that',
+  'go',
+  'white',
+  'zero',
+  'the',
+  'we',
+  'see',
+  'what',
+  'as',
+  'she',
+  'of',
+  'be',
+  'my',
+  'two',
+  'a',
+  'ten',
+  'he',
+  'five',
+  'it',
+  'blue',
+  'is',
+  'you',
+  'one',
+  'red',
+  'I',
+  'yellow',
+  'for',
+  'black',
+  'no',
+  'seven',
+  'on',
+  'to',
+  'cut',
+  'had',
+  'look',
+  'four',
+  'at',
+  'six',
+  'this',
+  'pink',
+  'from',
+  'all',
+  'brown',
+  'or',
+  'was',
+  'purple',
+  'nine',
+  'my',
+  'jump',
+  'went',
+  'three',
+  'they',
+  'but'
+]
+
+export default words 
