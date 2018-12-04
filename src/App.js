@@ -35,7 +35,7 @@ export default class App extends React.Component {
         <button className="button" onClick = {() => this.randomize()}>Next Word</button>
         <button className="button" onclick = {() => this.remove(this.state.selected)}>Remove This Card</button>
         <br/>
-        <div>{`${this.state.words.length} flashcards remain`</div>
+        <div>{`${this.state.all.length} flashcards remain`}</div>
       </div>
     )
   }
