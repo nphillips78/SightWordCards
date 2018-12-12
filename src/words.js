@@ -1,23 +1,23 @@
 const words = {
-list1: [
+'list1' : [
   'me', 'orange', 'and', 'green', 'in', 'his', 'have', 'that'
 ],
-list2: [
+'list2' : [
   'go', 'white', 'zero', 'the', 'we', 'see', 'what', 'as'
 ],
-list3:  [
+'list3' :  [
   'she', 'of', 'be', 'my', 'two', 'a', 'ten', 'he'
 ],
-list4: [ 
+'list4' : [ 
   'five', 'it', 'blue', 'is', 'you', 'one', 'red', 'I'
 ],
-list5: [
+'list5' : [
   'yellow', 'for', 'black', 'no', 'seven', 'on', 'to', 'cut'
 ],
-list6: [
+'list6': [
   'had', 'look', 'four', 'at', 'six', 'this', 'pink', 'from', 'all', 'brown'
 ],
-list7: [
+'list7' : [
   'or', 'was', 'purple', 'nine', 'my', 'jump', 'went', 'three', 'they', 'but'
 ]
 }
