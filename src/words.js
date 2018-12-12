@@ -22,7 +22,7 @@ const words = {
 ]
 }
 
-export default { words } 
+export default words 
 /*
 const words = [
   'me',

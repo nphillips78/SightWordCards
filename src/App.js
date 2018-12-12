@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
-import words from './words';
+import words from './words'
+import DropDown from './dropDown'
 
 export default class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      all: words,
+      all: words.list1,
       selected: null
     }
     this.randomize = this.randomize.bind(this)
@@ -17,7 +18,7 @@ export default class App extends React.Component {
   }
 
   randomize() {
-    const length = words.list1[].length
+    const length = words.list1.length
     const index = Math.floor(Math.random() * length)
     this.setState({selected: this.state.all[index]}) // set state to current word at current index
     console.log(this.state.all[index])
