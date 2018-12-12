@@ -1,33 +1,29 @@
-/* const list1 = [
+const words = {
+list1: [
   'me', 'orange', 'and', 'green', 'in', 'his', 'have', 'that'
-]
-
-const list2 = [
+],
+list2: [
   'go', 'white', 'zero', 'the', 'we', 'see', 'what', 'as'
-]
-
-const list3 = [
+],
+list3:  [
   'she', 'of', 'be', 'my', 'two', 'a', 'ten', 'he'
-]
-
-const list4 = [ 
+],
+list4: [ 
   'five', 'it', 'blue', 'is', 'you', 'one', 'red', 'I'
-]
-
-const list5 = [
+],
+list5: [
   'yellow', 'for', 'black', 'no', 'seven', 'on', 'to', 'cut'
-]
-
-const list6 = [
+],
+list6: [
   'had', 'look', 'four', 'at', 'six', 'this', 'pink', 'from', 'all', 'brown'
-]
-
-const list7 = [
+],
+list7: [
   'or', 'was', 'purple', 'nine', 'my', 'jump', 'went', 'three', 'they', 'but'
 ]
+}
 
-export default { list1 } { list2 } */
-
+export default { words } 
+/*
 const words = [
   'me',
   'orange',
@@ -91,4 +87,6 @@ const words = [
   'but'
 ]
 
+
 export default words 
+*/
