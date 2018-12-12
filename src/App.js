@@ -3,11 +3,13 @@ import './App.css'
 import words from './words'
 import DropDown from './dropDown'
 
+
+let lists = DropDown.anchorEl
 export default class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      all: words.list1,
+      all: words,
       selected: null
     }
     this.randomize = this.randomize.bind(this)
@@ -33,6 +35,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <DropDown  />
+        <div className="your-list">Let's study PLACEHOLDER</div>
         <div className="prompt">{this.state.selected}</div>
         <button className="button" onClick = {() => this.randomize()}>Next Word</button>
         <button className="button" onClick = {() => this.remove(this.state.selected)}>Remove This Card</button>

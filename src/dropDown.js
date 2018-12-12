@@ -1,6 +1,5 @@
 import React from 'react';
-import { IconButton, Menu, MenuItem } from '@material-ui/core'
-import MoreVertIcon  from '@material-ui/icons/MoreVert'
+import { Button, Menu, MenuItem } from '@material-ui/core'
 import words from './words'
 
 // const options = [ 'list1', 'list2', 'list3', 'list4', 'list5', 'list6', 'list7'] 
@@ -17,11 +16,11 @@ export default class DropDown extends React.Component {
   }
 
     handleClick = event => {
-      this.setState({ anchorEl: event.currentTarget })
+      this.setState({ anchorEl: event.currentTarget }) // sets whatever we selected to state
     }
 
     handleClose = () => {
-      this.setState({ anchorEl: null })
+      this.setState({ anchorEl: null }) // goes back to nothing selected
     }
 
     render() {
@@ -30,14 +29,14 @@ export default class DropDown extends React.Component {
 
       return (
         <div>
-          <IconButton 
+          <Button 
           aria-label="More"
           aria-owns={open ? 'long-menu' : undefined}
           aria-haspopup='true'
           onClick={this.handleClick}
         >
-          <MoreVertIcon />
-        </IconButton>
+        CHOOSE A LIST
+        </Button>
         <Menu
           id="long-menu"
           anchorEl={anchorEl}
